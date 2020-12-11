@@ -1,0 +1,10 @@
+Schedule Schema
+Date: Date
+Employees [{ID,Name,Role,Shift,Time}]
+
+insert each employee information into the employees array for specific date
+and return data within date range to populate master schedule
+
+to retrieve individual schedule loop over data in date range and return only 
+shifts with matching employee ID
+K5J0kGhsix2b
