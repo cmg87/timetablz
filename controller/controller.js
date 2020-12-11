@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const db = require('../models');
-const URI = 'mongodb://localhost:27010/timetablz';
+const URI = 'mongodb://localhost:27017/timetablz';
 
 
 mongoose.connect(URI, {useNewUrlParser: true});
@@ -57,7 +57,7 @@ module.exports = router;
 // let date = new Date("12/2/2020")
 // const day = {
 //     date : date,
-//     employees : [{name: 'alice', role:"bar", shift:"volume",time:"6:00pm"},{name: 'bob', role:"shift leader", shift:"mid",time:"11:00am"}]
+//     employees : [{name: 'candice', role:"bar", shift:"volume",time:"6:00pm"},{name: 'taylor', role:"shift leader", shift:"mid",time:"11:00am"}]
 // }
 // db.Schedule.create(day);
 
